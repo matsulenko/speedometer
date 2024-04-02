@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Speedometer
+
+  Created by Matsulenko on 27.03.2024.
+  
+*/
+
+"CFBundleDisplayName" = "Спидометр";
+"NSLocationWhenInUseUsageDescription" = "Для получения информации о скорости необходим доступ к геолокации";
