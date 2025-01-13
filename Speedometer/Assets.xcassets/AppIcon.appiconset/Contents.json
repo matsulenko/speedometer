@@ -1,7 +1,31 @@
 {
   "images" : [
     {
-      "filename" : "speedometer.png",
+      "filename" : "speedometer-icon white.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "speedometer transparent.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "filename" : "speedometer-icon bw.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
