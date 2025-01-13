@@ -36,6 +36,14 @@ struct ContentView: View {
             }
             .padding()
         }
+        .onAppear {
+            // Disable the idle timer when the view appears
+            UIApplication.shared.isIdleTimerDisabled = true
+        }
+        .onDisappear {
+            // Re-enable the idle timer when the view disappears
+            UIApplication.shared.isIdleTimerDisabled = false
+        }
     }
 }
 
